@@ -1,0 +1,13 @@
+/* Body */
+body {
+    background: #090e02;
+}
+
+/* H1 */
+h1 {
+    max-width: 480px;
+    text-align: center;
+    margin: 60px auto;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}
