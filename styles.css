@@ -11,3 +11,27 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     color: #fff;
 }
+
+h1::after {
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+
+p {
+    color: #fff;
+}
+
+a {
+    color: #99ff00;
+}
+
+@keyframes pisca {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
